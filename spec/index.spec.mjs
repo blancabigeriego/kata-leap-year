@@ -9,5 +9,9 @@ describe('LEAP YEAR KATA', () => {
         const result = leapyear.isLeapYear(2024);
         expect(result).toBe(true);
 
+    });
+    it('should return if next year is a leap year', () => {
+        const result = leapyear.isLeapYear(2025);
+        expect(result).toBe(false);
     })
 })
