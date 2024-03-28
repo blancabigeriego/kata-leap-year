@@ -25,6 +25,10 @@ describe('LEAP YEAR KATA', () => {
     it('should return true if 2000 is passed as an argument', () => {
         const result = leapyear.isLeapYear(2000);
         expect(result).toBe(true);
-    })
+    });
+    it('should return true if 2400 is passed as an argument', () => {
+        const result = leapyear.isLeapYear(2400);
+        expect(result).toBe(true);
+    });
 
 })
